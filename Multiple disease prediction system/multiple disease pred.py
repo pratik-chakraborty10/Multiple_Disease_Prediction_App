@@ -13,9 +13,9 @@ import numpy as np
 
 
 #loading saved models
-diabetes_model=pickle.load(open('/Users/pratikchakraborty/Desktop/Multiple disease prediction system/saved models/trained_model.sav','rb'))
+diabetes_model=pickle.load(open('trained_model.sav','rb'))
 
-heart_disease_model=pickle.load(open('/Users/pratikchakraborty/Desktop/Multiple disease prediction system/saved models/heart_disease_model.sav','rb'))
+heart_disease_model=pickle.load(open('heart_disease_model.sav','rb'))
 
 
 #sidebar navigation
